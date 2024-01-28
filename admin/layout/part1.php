@@ -31,6 +31,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="<?= APP_URL ?>/public/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= APP_URL ?>/public/dist/css/adminlte.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="<?= APP_URL ?>/public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?= APP_URL ?>/public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?= APP_URL ?>/public/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
     <!-- sweet alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Bootstrap icons-->
@@ -116,7 +120,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                 </div>
 
-                
+
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
